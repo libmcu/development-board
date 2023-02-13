@@ -1,11 +1,10 @@
 # MADI
 
-The MADI development board comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed so that you can focus on implementing your business logic without depending on the microcontroller type or platform. So all of MADI family boards can be developed easily by this SDK. You can find Quickstart guide [here](https://docs.libmcu.org/quickstart).
+MADI is a development board based on various microcontroller chips but have the same form factor 21.59 mm x 30 mm. MADI comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed so that you can focus on implementing your business logic without depending on the microcontroller type or platform. So all of MADI family boards can be developed easily by this SDK. You can find Quickstart guide [here](https://docs.libmcu.org/quickstart).
 The SDK isn’t the only one for developing MADI family boards, manufacturer-specific tools like CubeMX are also compatible.
 ## Overview
 ![image](https://user-images.githubusercontent.com/20197999/218473752-cf4155c1-084b-4cd4-ba1b-d018b4e2ab4f.png)
 
-- MADI is a development board based on various microcontroller chips but have the same form factor 21.59 mm x 30 mm
 - ESP32-S3 / nRF52840 / STM32G4 are supported currently
 - TI’s advanced battery management IC (BQ25180) and fully supported driver
 - GPIO pin access through 2 x 11 pin headers with edge castellations
