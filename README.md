@@ -15,6 +15,11 @@
 - 4-layer PCB design that mean better signal integrity and power integrity than other open-source development boards.
     ![image](https://user-images.githubusercontent.com/20197999/218473822-597a4815-dae3-4756-abf8-9250f82f3c35.png)
 
+# Applications information
+
+The MADI development board comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed so that you can focus on implementing your business logic without depending on the microcontroller type or platform. So all of MADI family boards can be developed easily by this SDK. You can find Quickstart guide [here](https://docs.libmcu.org/quickstart).
+The SDK isn’t the only one for developing MADI family boards, manufacturer-specific tools like CubeMX are also compatible.
+
 # Pinout
 - 2 x 11 Header pin pinout
 
@@ -97,8 +102,3 @@ Operating conditions for MADI are largely determined by recommended operating te
 | #2 |  |  |
 | #3 |  |  |
 | Mean |  |  |
-
-# Applications information
-
-The MADI development board comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed so that you can focus on implementing your business logic without depending on the microcontroller type or platform. So all of MADI family boards can be developed easily by this SDK. You can find Quickstart guide [here](https://docs.libmcu.org/quickstart).
-The SDK isn’t the only one for developing MADI family boards, manufacturer-specific tools like CubeMX are also compatible.
