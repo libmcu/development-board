@@ -1,6 +1,7 @@
 # MADI
 
 MADI is a development board based on various microcontroller chips but have the same form factor 21.59 mm x 30 mm. MADI comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed so that you can focus on implementing your business logic without depending on the microcontroller type or platform.
+
 So all of MADI family boards can be developed easily by this SDK. You can find Quickstart guide [here](https://docs.libmcu.org/quickstart).
 The SDK isn’t the only one for developing MADI family boards, manufacturer-specific tools like CubeMX are also compatible.
 ## Overview
