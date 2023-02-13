@@ -1,7 +1,7 @@
 # MADI
 
 # Overview
-![image](https://user-images.githubusercontent.com/20197999/218473752-cf4155c1-084b-4cd4-ba1b-d018b4e2ab4f.png|width=300)
+![image](https://user-images.githubusercontent.com/20197999/218473752-cf4155c1-084b-4cd4-ba1b-d018b4e2ab4f.png | width=300)
 
 - MADI is a development board based on various microcontroller chips but have the same form factor 21.59 mm x 30 mm
 - ESP32-S3 / nRF52840 / STM32G4 are supported currently
