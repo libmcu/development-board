@@ -1,7 +1,7 @@
 # MADI
 
 # Overview
-
+![image](https://user-images.githubusercontent.com/20197999/218473752-cf4155c1-084b-4cd4-ba1b-d018b4e2ab4f.png)
 
 - MADI is a development board based on various microcontroller chips but have the same form factor 21.59 mm x 30 mm
 - ESP32-S3 / nRF52840 / STM32G4 are supported currently
@@ -13,6 +13,7 @@
 - ARM Serial Wire Debug (SWD) by USB C-type port
 - Green LED, User button and Reset button
 - 4-layer PCB design that mean better signal integrity and power integrity than other open-source development boards.
+    ![image](https://user-images.githubusercontent.com/20197999/218473822-597a4815-dae3-4756-abf8-9250f82f3c35.png)
 
 # Pinout
 - 2 x 11 Header pin pinout
