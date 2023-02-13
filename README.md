@@ -1,6 +1,6 @@
 # MADI
 
-# Overview
+## Overview
 ![image](https://user-images.githubusercontent.com/20197999/218473752-cf4155c1-084b-4cd4-ba1b-d018b4e2ab4f.png)
 
 - MADI is a development board based on various microcontroller chips but have the same form factor 21.59 mm x 30 mm
@@ -15,12 +15,12 @@
 - 4-layer PCB design that mean better signal integrity and power integrity than other open-source development boards.
     ![image](https://user-images.githubusercontent.com/20197999/218473822-597a4815-dae3-4756-abf8-9250f82f3c35.png)
 
-# Applications information
+## Applications information
 
 The MADI development board comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed so that you can focus on implementing your business logic without depending on the microcontroller type or platform. So all of MADI family boards can be developed easily by this SDK. You can find Quickstart guide [here](https://docs.libmcu.org/quickstart).
 The SDK isn’t the only one for developing MADI family boards, manufacturer-specific tools like CubeMX are also compatible.
 
-# Pinout
+## Pinout
 - 2 x 11 Header pin pinout
     | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
     | --- | --- | --- | --- | --- |
@@ -61,18 +61,18 @@ The SDK isn’t the only one for developing MADI family boards, manufacturer-spe
     | VBAT_MON | IO7 |  |  |
     | USER BUTTON | BOOT/IO0 |  |  |
 
-# Design files
+## Design files
 
 The full schematic, STEP 3D, drawings and CAD library can be found [here](https://github.com/libmcu/development-board).
 
-## Schematic
+### Schematic
 
-## Mechanical Drawing
+### Mechanical Drawing
 
 - PCB: 21.59 mm x 30 mm
 - Thickness: 1.6mm
 
-# Recommended operating conditions
+## Recommended operating conditions
 
 Operating conditions for MADI are largely determined by recommended operating temperature range specified by the datasheet or specifications of the electronic components used in MADI.
 
@@ -82,9 +82,9 @@ Operating conditions for MADI are largely determined by recommended operating te
 | VIN | 4.35 V ~ 5.5 V |
 | VBAT | 2.2 V ~ 4.6 V |
 
-# Power consumption
+## Power consumption
 
-## Full-load
+### Full-load
 
 | MADI | VBUS_IN current @5V (mA) / Temperature (25 °C) | VBAT current @3.7V (mA) / Temperature (25 °C) |
 | --- | --- | --- |
@@ -93,7 +93,7 @@ Operating conditions for MADI are largely determined by recommended operating te
 | #3 |  |  |
 | Mean |  |  |
 
-## Sleep mode
+### Sleep mode
 
 | MADI | VBUS_IN current @5V (mA) / Temperature (25 °C) | VBAT current @3.7V (mA) / Temperature (25 °C) |
 | --- | --- | --- |
