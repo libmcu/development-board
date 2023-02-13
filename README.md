@@ -16,7 +16,7 @@ The SDK isn’t the only one for developing MADI family boards, manufacturer-spe
 - ARM Serial Wire Debug (SWD) by USB C-type port
 - Green LED, User button and Reset button
 - 4-layer PCB design that mean better signal integrity and power integrity than other open-source development boards.
-    <img width="342" alt="image" src="https://user-images.githubusercontent.com/20197999/218480841-553abd3c-5375-48ac-b4a6-05f187532ef7.png">
+    <img width="500" alt="image" src="https://user-images.githubusercontent.com/20197999/218480841-553abd3c-5375-48ac-b4a6-05f187532ef7.png">
 
 
 ## Pinout
