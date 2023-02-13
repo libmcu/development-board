@@ -22,45 +22,44 @@ The SDK isn’t the only one for developing MADI family boards, manufacturer-spe
 
 # Pinout
 - 2 x 11 Header pin pinout
+    | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
+    | --- | --- | --- | --- | --- |
+    | 1 |  |  |  |  |
+    | 2 |  |  |  |  |
+    | 3 |  |  |  |  |
+    | 4 |  |  |  |  |
+    | 5 |  |  |  |  |
+    | 6 |  |  |  |  |
+    | 7 |  |  |  |  |
+    | 8 |  |  |  |  |
+    | 9 |  |  |  |  |
+    | 10 |  |  |  |  |
+    | 11 |  |  |  |  |
 
-| No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
-| --- | --- | --- | --- | --- |
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
-| 6 |  |  |  |  |
-| 7 |  |  |  |  |
-| 8 |  |  |  |  |
-| 9 |  |  |  |  |
-| 10 |  |  |  |  |
-| 11 |  |  |  |  |
-
-| No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
-| --- | --- | --- | --- | --- |
-| 12 |  |  |  |  |
-| 13 |  |  |  |  |
-| 14 |  |  |  |  |
-| 15 |  |  |  |  |
-| 16 |  |  |  |  |
-| 17 |  |  |  |  |
-| 18 |  |  |  |  |
-| 19 |  |  |  |  |
-| 20 |  |  |  |  |
-| 21 |  |  |  |  |
-| 22 |  |  |  |  |
+    | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
+    | --- | --- | --- | --- | --- |
+    | 12 |  |  |  |  |
+    | 13 |  |  |  |  |
+    | 14 |  |  |  |  |
+    | 15 |  |  |  |  |
+    | 16 |  |  |  |  |
+    | 17 |  |  |  |  |
+    | 18 |  |  |  |  |
+    | 19 |  |  |  |  |
+    | 20 |  |  |  |  |
+    | 21 |  |  |  |  |
+    | 22 |  |  |  |  |
+ 
 - Pinout used internally
-
-|  | ESP32-S3 | nRF52840 | STM32G4 |
-| --- | --- | --- | --- |
-| GREEN LED | IO35 |  |  |
-| BQ25180 IRQ | IO14 |  |  |
-| BQ25180 SDA | IO17 |  |  |
-| BQ25180 SCL | IO18 |  |  |
-| EN_VBAT_MON | IO4 |  |  |
-| VBAT_MON | IO7 |  |  |
-| USER BUTTON | BOOT/IO0 |  |  |
+    |  | ESP32-S3 | nRF52840 | STM32G4 |
+    | --- | --- | --- | --- |
+    | GREEN LED | IO35 |  |  |
+    | BQ25180 IRQ | IO14 |  |  |
+    | BQ25180 SDA | IO17 |  |  |
+    | BQ25180 SCL | IO18 |  |  |
+    | EN_VBAT_MON | IO4 |  |  |
+    | VBAT_MON | IO7 |  |  |
+    | USER BUTTON | BOOT/IO0 |  |  |
 
 # Design files
 
