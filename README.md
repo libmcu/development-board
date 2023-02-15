@@ -1,8 +1,6 @@
 # MADI
 
-MADI is a development board based on various microcontroller chips but have the same form factor 21.59 mm x 30 mm. MADI comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed so that you can focus on implementing your business logic without depending on the microcontroller type or platform.
-
-So all of MADI family boards can be developed easily by one SDK. You can find a quick start guide [here](https://docs.libmcu.org/quickstart).
+MADI is a development board based on various microcontroller chips but have the same form factor 21.59 mm x 30 mm. MADI comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed so that you can focus on implementing your business logic without depending on the microcontroller type or platform. So all of MADI family boards can be developed easily by one SDK. You can find a quick start guide [here](https://docs.libmcu.org/quickstart).
 
 ## Overview
 ![image](https://user-images.githubusercontent.com/20197999/218473752-cf4155c1-084b-4cd4-ba1b-d018b4e2ab4f.png)
@@ -55,13 +53,13 @@ So all of MADI family boards can be developed easily by one SDK. You can find a 
 - Pinout used internally
     |  | ESP32-S3 | nRF52840 | STM32G4 |
     | --- | --- | --- | --- |
-    | GREEN LED | IO35 |  |  |
-    | BQ25180 IRQ | IO14 |  |  |
-    | BQ25180 SDA | IO17 |  |  |
-    | BQ25180 SCL | IO18 |  |  |
-    | EN_VBAT_MON | IO4 |  |  |
-    | VBAT_MON | IO7 |  |  |
-    | USER BUTTON | BOOT/IO0 |  |  |
+    | GREEN LED | IO35 | P0.20 | PA15 |
+    | BQ25180 IRQ | IO14 | P0.26 | PC6 |
+    | BQ25180 SDA | IO17 | P1.13 | PA8 |
+    | BQ25180 SCL | IO18 | P1.12 | PA9 |
+    | EN_VBAT_MON | IO4 | P0.27 | PB2 |
+    | VBAT_MON | IO7 | P0.31 | PC4 |
+    | USER BUTTON | IO0 | P1.07 | PB8 |
 
 ## Design files
 
