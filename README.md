@@ -20,9 +20,12 @@ So all of MADI family boards can be developed easily by one SDK. You can find a 
 
 
 ## Pinout
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/20197999/219046405-8cde11a0-d9e8-427d-b304-b0ab0f981c44.png">
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/20197999/219046447-2c5f6d1f-e041-4928-9530-d69c596b9965.png">
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/20197999/219046476-6b640449-048e-4393-982f-7bee86d5b960.png">
+- ESP32-S3
+    <img width="600" alt="image" src="https://user-images.githubusercontent.com/20197999/219046405-8cde11a0-d9e8-427d-b304-b0ab0f981c44.png">
+- nRF52840
+    <img width="600" alt="image" src="https://user-images.githubusercontent.com/20197999/219046447-2c5f6d1f-e041-4928-9530-d69c596b9965.png">
+- STM32G4
+    <img width="600" alt="image" src="https://user-images.githubusercontent.com/20197999/219046476-6b640449-048e-4393-982f-7bee86d5b960.png">
 
 
 - 2 x 11 Header pin pinout
