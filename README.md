@@ -22,10 +22,10 @@ MADI is a development board based on various microcontroller chips but have the 
 
 
 - 2 x 11 Header pin pinout
-    | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
-    | --- | --- | --- | --- | --- |
-    | 1 | 3V3 | 3V3 | 3V3 | 3.3V LDO output |
-    | 2 | GND | GND | GND |  |
+    | No. | ESP32-S3 | nRF52840 | STM32G4 | Note | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
+    | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+    | 1 | 3V3 | 3V3 | 3V3 | 3.3V LDO output | 22 | VIN | VIN | VIN | External power input |
+    | 2 | GND | GND | GND |  | 21 | VSYS | VSYS | VSYS | BQ25180 System Output |
     | 3 | IO35 | P0.20 | PA15 |  |
     | 4 | IO36 | P0.22 | PA5 |  |
     | 5 | IO1 | P0.04 | PA0 | ADC1 |
