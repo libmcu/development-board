@@ -67,12 +67,12 @@ MADI is a development board based on various microcontroller chips but have the 
 ## Recommended operating conditions
 
 Operating conditions for MADI are largely determined by operating range specified in the electronic components used in MADI.
-| Parameter | Value |
-| --- | --- |
-| Operating Temp Max. | 85 °C |
-| Operating Temp Min. | -40 °C |
-| VIN | 4.35 V ~ 5.5 V |
-| VBAT | 2.2 V ~ 4.6 V |
+    | Parameter | Value |
+    | --- | --- |
+    | Operating Temp Max. | 85 °C |
+    | Operating Temp Min. | -40 °C |
+    | VIN | 4.35 V ~ 5.5 V |
+    | VBAT | 2.2 V ~ 4.6 V |
 
 ## Support libmcu
 
