@@ -51,7 +51,7 @@ MADI is a development board based on various microcontroller chips but have the 
     | 12 | IO18 | P1.12 | PA9 | I2C_SCL |
  
 - Pinout used internally
-    |  | ESP32-S3 | nRF52840 | STM32G4 |
+    | function | ESP32-S3 | nRF52840 | STM32G4 |
     | --- | --- | --- | --- |
     | GREEN LED | IO35 | P0.20 | PA15 |
     | BQ25180 IRQ | IO14 | P0.26 | PC6 |
@@ -65,17 +65,11 @@ MADI is a development board based on various microcontroller chips but have the 
 
 The full schematic, STEP 3D, drawings and CAD library can be found [here](https://github.com/libmcu/development-board).
 
-### Schematic
-
-### Mechanical Drawing
-
-- PCB: 21.59 mm x 30 mm
-- Thickness: 1.6mm
-
 ## Recommended operating conditions
 
 Operating conditions for MADI are largely determined by recommended operating range specified in the electronic components used in MADI.
-
+| Parameter |  |
+| --- | --- |
 | Operating Temp Max. | 85 °C |
 | Operating Temp Min. | -40 °C |
 | VIN | 4.35 V ~ 5.5 V |
@@ -83,20 +77,10 @@ Operating conditions for MADI are largely determined by recommended operating ra
 
 ## Power consumption
 
-### Full-load
-
-| MADI | VBUS_IN current @5V (mA) / Temperature (25 °C) | VBAT current @3.7V (mA) / Temperature (25 °C) |
-| --- | --- | --- |
-| #1 |  |  |
-| #2 |  |  |
-| #3 |  |  |
-| Mean |  |  |
-
 ### Sleep mode
 
-| MADI | VBUS_IN current @5V (mA) / Temperature (25 °C) | VBAT current @3.7V (mA) / Temperature (25 °C) |
-| --- | --- | --- |
-| #1 |  |  |
-| #2 |  |  |
-| #3 |  |  |
-| Mean |  |  |
+| MADI | VBAT current @3.7V (mA) / Temperature (25 °C) |
+| --- | --- |
+| ESP32-S3 |  |
+| nRF52840 |  |
+| STM32G4 |  |
