@@ -26,8 +26,8 @@ So all of MADI family boards can be developed easily by one SDK. You can find a 
 - 2 x 11 Header pin pinout
     | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
     | --- | --- | --- | --- | --- |
-    | 1 |  |  |  |  |
-    | 2 |  |  |  |  |
+    | 1 | 3V3 | 3V3 | 3V3 | 3V3 |
+    | 2 | GND | GND | GND | GND |
     | 3 |  |  |  |  |
     | 4 |  |  |  |  |
     | 5 |  |  |  |  |
@@ -78,7 +78,7 @@ The full schematic, STEP 3D, drawings and CAD library can be found [here](https:
 
 Operating conditions for MADI are largely determined by recommended operating range specified in the electronic components used in MADI.
 
-| Operating Temp Max.  | 85 °C |
+| Operating Temp Max. | 85 °C |
 | Operating Temp Min. | -40 °C |
 | VIN | 4.35 V ~ 5.5 V |
 | VBAT | 2.2 V ~ 4.6 V |
