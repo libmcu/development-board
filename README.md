@@ -67,8 +67,8 @@ The full schematic, STEP 3D, drawings and CAD library can be found [here](https:
 
 ## Recommended operating conditions
 
-Operating conditions for MADI are largely determined by recommended operating range specified in the electronic components used in MADI.
-| Parameter |  |
+Operating conditions for MADI are largely determined by operating range specified in the electronic components used in MADI.
+| Parameter | value |
 | --- | --- |
 | Operating Temp Max. | 85 °C |
 | Operating Temp Min. | -40 °C |
