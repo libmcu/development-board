@@ -93,4 +93,5 @@ https://k32175.wixsite.com/libmcu
 
 
 Contact us
-libmcu.slack.com
+
+[slack](libmcu.slack.com)
