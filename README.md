@@ -63,14 +63,10 @@ MADI is a development board based on various microcontroller chips but have the 
     | VBAT_MON | IO7 | P0.31 | PC4 |
     | USER BUTTON | IO0 | P1.07 | PB8 |
 
-## Design files
-
-The full schematic, STEP 3D, drawings and CAD library can be found [here](https://github.com/libmcu/development-board).
-
 ## Recommended operating conditions
 
 Operating conditions for MADI are largely determined by operating range specified in the electronic components used in MADI.
-| Parameter | value |
+| Parameter | Value |
 | --- | --- |
 | Operating Temp Max. | 85 °C |
 | Operating Temp Min. | -40 °C |
