@@ -51,7 +51,7 @@ MADI is a development board based on various microcontroller chips but have the 
     | 12 | IO18 | P1.12 | PA9 | I2C_SCL |
  
 - Pinout used internally
-    | function | ESP32-S3 | nRF52840 | STM32G4 |
+    | Function | ESP32-S3 | nRF52840 | STM32G4 |
     | --- | --- | --- | --- |
     | GREEN LED | IO35 | P0.20 | PA15 |
     | BQ25180 IRQ | IO14 | P0.26 | PC6 |
@@ -84,3 +84,13 @@ Operating conditions for MADI are largely determined by operating range specifie
 | ESP32-S3 |  |
 | nRF52840 |  |
 | STM32G4 |  |
+
+## Support libmcu
+
+Please consider supporting libmcu by buying some of products from:
+
+https://k32175.wixsite.com/libmcu
+
+
+Contact us
+libmcu.slack.com
