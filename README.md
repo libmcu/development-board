@@ -26,17 +26,17 @@ So all of MADI family boards can be developed easily by one SDK. You can find a 
 - 2 x 11 Header pin pinout
     | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
     | --- | --- | --- | --- | --- |
-    | 1 | 3V3 | 3V3 | 3V3 | 3V3 |
-    | 2 | GND | GND | GND | GND |
-    | 3 |  |  |  |  |
-    | 4 |  |  |  |  |
-    | 5 |  |  |  |  |
-    | 6 |  |  |  |  |
-    | 7 |  |  |  |  |
-    | 8 |  |  |  |  |
-    | 9 |  |  |  |  |
-    | 10 |  |  |  |  |
-    | 11 |  |  |  |  |
+    | 1 | 3V3 | 3V3 | 3V3 | 3.3V LDO output |
+    | 2 | GND | GND | GND |  |
+    | 3 | IO35 | P0.20 | PA15 |  |
+    | 4 | IO36 | P0.22 | PA5 |  |
+    | 5 | IO1 | P0.04 | PA0 | ADC1 |
+    | 6 | IO2 | P0.05 | PA3 | ADC2 |
+    | 7 | IO37 | P0.19 | PC11 |  |
+    | 8 | IO38 | P0.21 | PA1 |  |
+    | 9 | GND | GND | GND |  |
+    | 10 | IO43 | P0.23 | PA2 | UART_TX |
+    | 11 | IO44 | P0.25 | PB4 | UART_RX |
 
     | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
     | --- | --- | --- | --- | --- |
