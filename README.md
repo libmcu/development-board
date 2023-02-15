@@ -17,11 +17,12 @@ MADI is a development board based on various microcontroller chips but have the 
 - Green LED, User button and Reset button
 - 4-layer PCB design that mean better signal integrity and power integrity than other open-source development boards.
 
-    <img width="500" alt="image" src="https://user-images.githubusercontent.com/20197999/218952542-a1177f72-08df-4d98-9c2b-1c9091225d1d.png">
+    <img width="500" alt="4-layer" src="https://user-images.githubusercontent.com/20197999/218952542-a1177f72-08df-4d98-9c2b-1c9091225d1d.png">
 
 
 ## Pinout
-<img width="1452" alt="image" src="https://user-images.githubusercontent.com/20197999/219049675-53acff68-352b-46b8-b291-0f53eb272fa5.png">
+<img width="1500" alt="pinout" src="https://user-images.githubusercontent.com/20197999/219062569-9bd5deb6-e02e-45cc-be36-fe252628cdd2.png">
+
 
 
 - 2 x 11 Header pin pinout
