@@ -74,16 +74,6 @@ Operating conditions for MADI are largely determined by operating range specifie
 | VIN | 4.35 V ~ 5.5 V |
 | VBAT | 2.2 V ~ 4.6 V |
 
-## Power consumption
-
-### Sleep mode
-
-| MADI | VBAT current @3.7V (mA) / Temperature (25 °C) |
-| --- | --- |
-| ESP32-S3 |  |
-| nRF52840 |  |
-| STM32G4 |  |
-
 ## Support libmcu
 
 Please consider supporting libmcu by buying some of products from:
