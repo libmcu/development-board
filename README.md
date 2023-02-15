@@ -91,7 +91,6 @@ Please consider supporting libmcu by buying some of products from:
 
 https://k32175.wixsite.com/libmcu
 
+## Contact us
 
-Contact us
-
-[Slack]([libmcu.slack.com](https://libmcu.slack.com/))
+[Slack](https://libmcu.slack.com/)
