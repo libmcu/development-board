@@ -40,17 +40,17 @@ So all of MADI family boards can be developed easily by one SDK. You can find a 
 
     | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
     | --- | --- | --- | --- | --- |
-    | 12 |  |  |  |  |
-    | 13 |  |  |  |  |
-    | 14 |  |  |  |  |
-    | 15 |  |  |  |  |
-    | 16 |  |  |  |  |
-    | 17 |  |  |  |  |
-    | 18 |  |  |  |  |
-    | 19 |  |  |  |  |
-    | 20 |  |  |  |  |
-    | 21 |  |  |  |  |
-    | 22 |  |  |  |  |
+    | 22 | VIN | VIN | VIN | External power input |
+    | 21 | VSYS | VSYS | VSYS | BQ25180 System Output |
+    | 20 | GND | GND | GND |  |
+    | 19 | VBAT | VBAT | VBAT | Battery Connection |
+    | 18 | GND | GND | GND |  |
+    | 17 | IO13 | P0.29 | PB14 | SPI_MISO |
+    | 16 | IO12 | P0.28 | PB13 | SPI_CLK |
+    | 15 | IO11 | P0.03 | PB15 | SPI_MOSI |
+    | 14 | IO10 | P1.15 | PB12 | SPI_nCS |
+    | 13 | IO17 | P1.13 | PA8 | I2C_SDA |
+    | 12 | IO18 | P1.12 | PA9 | I2C_SCL |
  
 - Pinout used internally
     |  | ESP32-S3 | nRF52840 | STM32G4 |
