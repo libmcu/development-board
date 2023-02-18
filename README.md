@@ -1,86 +1,78 @@
 # MADI
 
-MADI is a development board based on various microcontroller chips but have the same form factor 21.59 mm x 30 mm. MADI comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed so that you can focus on implementing your business logic without depending on the microcontroller type or platform. So all of MADI family boards can be developed easily by one SDK. You can find a quick start guide [here](https://docs.libmcu.org/quickstart).
+[한국어](README_kr.md)
 
-[Main documentation of the MADI can be found here!](https://docs.libmcu.org/boards/libmcu.html)
+![MADI parts summary](images/madi-parts-summary.png)
 
-## Overview
-![image](https://user-images.githubusercontent.com/20197999/218473752-cf4155c1-084b-4cd4-ba1b-d018b4e2ab4f.png)
+MADI is a development board based on various microcontroller chips with the same form factor of 21.59mm x 30mm. The board documentation can be found [here](https://docs.libmcu.org/boards/libmcu.html). And purchase can be made in [our store](https://store.libmcu.org).
 
-- ESP32-S3 / nRF52840 / STM32G4 are supported currently
-- TI’s advanced battery management IC (BQ25180) and fully supported driver
-- GPIO pin access through 2 x 11 pin headers with edge castellations
-    - 2 x ADC / 1 x I2C / 1 x SPI / 1 x UART
-    - Can be surface mounted as a module
-- External Quad-SPI Flash with eXecute In Place (XIP) (for nRF52840 and STM32G4)
-- ARM Serial Wire Debug (SWD) by USB C-type port
-- Green LED, User button and Reset button
-- 4-layer PCB design that mean better signal integrity and power integrity than other open-source development boards.
-        <img width="500" alt="4-layer" src="https://user-images.githubusercontent.com/20197999/218952542-a1177f72-08df-4d98-9c2b-1c9091225d1d.png">
+MADI comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed to develop firmware that are not dependent on the type of microcontroller or manufacturer's platform. It helps you focus on your application development rather than platform-specific or manufacturer-specific development environment. Please refer to our [quickstart quide](https://docs.libmcu.org/quickstart).
 
+## Features
+
+* Three different MCUs are now available:
+  - [ESP32-S3](https://docs.libmcu.org/boards/libmcu.html#madi-esp32)
+  - [nRF52840](https://docs.libmcu.org/boards/libmcu.html#madi-nrf52)
+  - [STM32G4](https://docs.libmcu.org/boards/libmcu.html#madi-stm32)
+* TI’s advanced battery management IC, BQ25180, with [fully supported driver](https://docs.libmcu.org/api/pm.html#bq25180)
+* 2 x 11 pin headers with edge castellations
+  - can be surface mounted as a module
+* External Quad-SPI Flash with eXecute In Place(XIP)
+* Serial Wire Debug(SWD) via USB C-type port
+* Green LED, User button and Reset button
+* 4-layer PCB design for the better signal integrity and power integrity
+
+![4-layer PCB](images/pcb-4-layer.png)
 
 ## Pinout
-<img width="1500" alt="pinout" src="https://user-images.githubusercontent.com/20197999/219062569-9bd5deb6-e02e-45cc-be36-fe252628cdd2.png">
 
+![MADI Pinouts](images/madi-pinout-together.png)
 
+### 2 x 11 Pin Header
 
-- 2 x 11 Header pin pinout
-    | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
-    | --- | --- | --- | --- | --- |
-    | 1 | 3V3 | 3V3 | 3V3 | 3.3V LDO output |
-    | 2 | GND | GND | GND |  |
-    | 3 | IO35 | P0.20 | PA15 |  |
-    | 4 | IO36 | P0.22 | PA5 |  |
-    | 5 | IO1 | P0.04 | PA0 | ADC1 |
-    | 6 | IO2 | P0.05 | PA3 | ADC2 |
-    | 7 | IO37 | P0.19 | PC11 |  |
-    | 8 | IO38 | P0.21 | PA1 |  |
-    | 9 | GND | GND | GND |  |
-    | 10 | IO43 | P0.23 | PA2 | UART_TX |
-    | 11 | IO44 | P0.25 | PB4 | UART_RX |
+| No. | ESP32-S3 | nRF52840 | STM32G4 | Note                  |
+| --- | -------- | -------- | ------- | --------------------- |
+|   1 | 3V3      | 3V3      | 3V3     | 3.3V LDO output       |
+|   2 | GND      | GND      | GND     |                       |
+|   3 | IO35     | P0.20    | PA.15   |                       |
+|   4 | IO36     | P0.22    | PA.5    |                       |
+|   5 | IO1      | P0.04    | PA.0    | ADC1                  |
+|   6 | IO2      | P0.05    | PA.3    | ADC2                  |
+|   7 | IO37     | P0.19    | PC.11   |                       |
+|   8 | IO38     | P0.21    | PA.1    |                       |
+|   9 | GND      | GND      | GND     |                       |
+|  10 | IO43     | P0.23    | PA.2    | UART_TX               |
+|  11 | IO44     | P0.25    | PB.4    | UART_RX               |
+|  12 | IO18     | P1.12    | PA9     | I2C_SCL               |
+|  13 | IO17     | P1.13    | PA8     | I2C_SDA               |
+|  14 | IO10     | P1.15    | PB12    | SPI_nCS               |
+|  15 | IO11     | P0.03    | PB15    | SPI_MOSI              |
+|  16 | IO12     | P0.28    | PB13    | SPI_CLK               |
+|  17 | IO13     | P0.29    | PB14    | SPI_MISO              |
+|  18 | GND      | GND      | GND     |                       |
+|  19 | VBAT     | VBAT     | VBAT    | Battery Connection    |
+|  20 | GND      | GND      | GND     |                       |
+|  21 | VSYS     | VSYS     | VSYS    | BQ25180 System Output |
+|  22 | VIN      | VIN      | VIN     | External power input  |
 
-    | No. | ESP32-S3 | nRF52840 | STM32G4 | Note |
-    | --- | --- | --- | --- | --- |
-    | 22 | VIN | VIN | VIN | External power input |
-    | 21 | VSYS | VSYS | VSYS | BQ25180 System Output |
-    | 20 | GND | GND | GND |  |
-    | 19 | VBAT | VBAT | VBAT | Battery Connection |
-    | 18 | GND | GND | GND |  |
-    | 17 | IO13 | P0.29 | PB14 | SPI_MISO |
-    | 16 | IO12 | P0.28 | PB13 | SPI_CLK |
-    | 15 | IO11 | P0.03 | PB15 | SPI_MOSI |
-    | 14 | IO10 | P1.15 | PB12 | SPI_nCS |
-    | 13 | IO17 | P1.13 | PA8 | I2C_SDA |
-    | 12 | IO18 | P1.12 | PA9 | I2C_SCL |
- 
-- Pinout used internally
-    | Function | ESP32-S3 | nRF52840 | STM32G4 |
-    | --- | --- | --- | --- |
-    | GREEN LED | IO35 | P0.20 | PA15 |
-    | BQ25180 IRQ | IO14 | P0.26 | PC6 |
-    | BQ25180 SDA | IO17 | P1.13 | PA8 |
-    | BQ25180 SCL | IO18 | P1.12 | PA9 |
-    | EN_VBAT_MON | IO4 | P0.27 | PB2 |
-    | VBAT_MON | IO7 | P0.31 | PC4 |
-    | USER BUTTON | IO0 | P1.07 | PB8 |
+### Pinmap internally connected
 
-## Recommended operating conditions
+| Function    | ESP32-S3 | nRF52840 | STM32G4 |
+| ----------- | -------- | -------- | ------- |
+| GREEN LED   | IO35     | P0.20    | PA.15   |
+| BQ25180 IRQ | IO14     | P0.26    | PC.6    |
+| BQ25180 SDA | IO17     | P1.13    | PA.8    |
+| BQ25180 SCL | IO18     | P1.12    | PA.9    |
+| EN_VBAT_MON | IO4      | P0.27    | PB.2    |
+| VBAT_MON    | IO7      | P0.31    | PC.4    |
+| USER BUTTON | IO0      | P1.07    | PB.8    |
 
-Operating conditions for MADI are largely determined by operating range specified in the electronic components used in MADI.
+## Recommended Operating Conditions
 
-| Parameter | Value |
-| --- | --- |
-| Operating Temp Max. | 85 °C |
-| Operating Temp Min. | -40 °C |
-| VIN | 4.35 V ~ 5.5 V |
-| VBAT | 2.2 V ~ 4.6 V |
+| Parameter           | Value          |
+| ------------------- | -------------- |
+| Operating Temp Max. | 85 °C          |
+| Operating Temp Min. | -40 °C         |
+| VIN                 | 4.35 V ~ 5.5 V |
+| VBAT                | 2.2 V ~ 4.6 V  |
 
-## Support libmcu
-
-Please consider supporting libmcu by buying some of products from:
-
-https://k32175.wixsite.com/libmcu
-
-## Contact us
-
-[Slack](https://libmcu.slack.com/)
