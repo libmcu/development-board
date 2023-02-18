@@ -74,5 +74,5 @@ MADI comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is
 | Operating Temp Max. | 85 °C          |
 | Operating Temp Min. | -40 °C         |
 | VIN                 | 4.35 V ~ 5.5 V |
-| VBAT                | 2.2 V ~ 4.6 V  |
+| VBAT                | 3.5 V ~ 4.6 V  |
 
