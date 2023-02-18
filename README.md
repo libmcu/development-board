@@ -4,7 +4,7 @@
 
 ![MADI parts summary](images/madi-parts-summary.png)
 
-MADI is a development board based on various microcontroller chips with the same form factor of 21.59mm x 30mm. The board documentation can be found [here](https://docs.libmcu.org/boards/libmcu.html). And purchase can be made in [our store](https://store.libmcu.org).
+MADI is a development board based on various microcontroller chips with the same form factor of 21.59mm x 30mm. The board documentation can be found [here](https://docs.libmcu.org/boards/libmcu.html) and purchase can be made in [our store](https://store.libmcu.org).
 
 MADI comes with an open source [SDK](https://github.com/libmcu/madi). The SDK is designed to develop firmware that are not dependent on the type of microcontroller or manufacturer's platform. It helps you focus on your application development rather than platform-specific or manufacturer-specific development environment. Please refer to our [quickstart quide](https://docs.libmcu.org/quickstart).
 
