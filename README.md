@@ -1,5 +1,7 @@
 [한국어](./README_kr.md)
 
+[https://libmcu.org/madi](https://libmcu.org/madi)
+
 Boards produced by libmcu are divided into core boards and extension boards.
 
 Several types of core boards are manufactured in the same form factor,
@@ -12,8 +14,8 @@ A suitable core board can be attached/detached to the extension board.
 
 For specifications, please refer to [the developer
 documentation](https://docs.libmcu.org/boards/index.html).
-[Firmware framework](https://github.com/libmcu/MADI) and [getting started
-guide](https://docs.libmcu.org/quickstart/index.html) are there for you to get
+[SDK](https://github.com/libmcu/MADI) and [getting started
+guide](https://docs.libmcu.org/quickstart/index.html) are for you to get
 started easily.
 
 ## Core Boards

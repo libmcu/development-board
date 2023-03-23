@@ -1,5 +1,7 @@
 [English](./README_kr.md)
 
+[https://libmcu.org/kr/madi](https://libmcu.org/kr/madi)
+
 libmcu 에서 제작하는 보드는 코어보드와 확장보드 두가지로 분류됩니다.
 
 코어보드는 30x21.59mm 사이즈의 동일한 폼팩터로 제작됩니다. 동일한 폼팩터와 호환
@@ -11,7 +13,7 @@ libmcu 에서 제작하는 보드는 코어보드와 확장보드 두가지로 �
 확장보드에는 목적에 맞는 적합한 코어보드를 탈착할 수 있습니다.
 
 상세사양은 [개발자 문서](https://docs.libmcu.org/boards/index.html)를
-참고해주세요. [펌웨어 프레임워크](https://github.com/libmcu/MADI)와 [가이드
+참고해주세요. [SDK](https://github.com/libmcu/MADI)와 [가이드
 문서](https://docs.libmcu.org/quickstart/index.html)를 통해 쉽게 개발을 시작할
 수 있습니다.
 
