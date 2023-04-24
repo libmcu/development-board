@@ -99,57 +99,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OIOSHFBK
 
 [Document4]
-DocumentPath=..\..\..\..\..\..\..\_Specific_Files\Altium Integrated Library\PcbLib-master.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JKPGHCBW
-
-[Document5]
-DocumentPath=..\..\..\..\..\..\..\_Specific_Files\Altium Integrated Library\Schlib-master.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=THMXEURM
-
-[Document6]
-DocumentPath=..\..\..\..\..\..\..\_Specific_Files\Altium OutputJob\OutputJob_common_L4.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
 DocumentPath=MADI_STM32G4_PCB_L4.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -166,6 +115,57 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YAKVMQUL
 
+[Document5]
+DocumentPath=..\..\..\..\..\..\_Specific_Files\Altium Integrated Library\PcbLib-master.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=..\..\..\..\..\..\_Specific_Files\Altium Integrated Library\Schlib-master.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=THMXEURM
+
+[Document7]
+DocumentPath=..\..\..\..\..\..\_Specific_Files\Altium OutputJob\OutputJob_common_L4.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=B9FDA8AD-344A-423B-9BE5-EDBFCAA2601B
 Description=001
@@ -174,53 +174,45 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Core_STM32G4_JLC_PCB\Design Rule Check - Core_STM32G4_JLC_PCB_L4.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Core_STM32G4_PCB\Design Rule Check - Core_STM32G4_PCB_L4.html
-DItemRevisionGUID=
-
 [Parameter1]
-Name=VersionRevision
-Value=A
+Name=Address1
+Value=-
 
 [Parameter2]
-Name=SheetSize
-Value=A3
-
-[Parameter3]
-Name=ProjectNumber
-Value=None
-
-[Parameter4]
-Name=Project
-Value=MADI_STM32G4_PCB
-
-[Parameter5]
-Name=DrawnBy
-Value=JW
-
-[Parameter6]
-Name=Contact
-Value=kimjw187@gmail.com
-
-[Parameter7]
-Name=Company
-Value=libmcu
-
-[Parameter8]
-Name=CheckedBy
-Value=K
-
-[Parameter9]
 Name=Address2
 Value=-
 
+[Parameter3]
+Name=CheckedBy
+Value=K
+
+[Parameter4]
+Name=Company
+Value=libmcu
+
+[Parameter5]
+Name=Contact
+Value=kimjw187@gmail.com
+
+[Parameter6]
+Name=DrawnBy
+Value=JW
+
+[Parameter7]
+Name=Project
+Value=MADI_STM32G4_PCB
+
+[Parameter8]
+Name=ProjectNumber
+Value=None
+
+[Parameter9]
+Name=SheetSize
+Value=A3
+
 [Parameter10]
-Name=Address1
-Value=-
+Name=VersionRevision
+Value=A
 
 [Configuration1]
 Name=Default Configuration
@@ -867,6 +859,36 @@ OutputName12=Export STEP
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
